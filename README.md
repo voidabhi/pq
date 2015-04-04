@@ -4,4 +4,4 @@ A python script for fetching data from 'google spreadsheet' and sending push not
 
 # Developed By
 
-`Abhijeet Mohan`
+`Abhijeet Mohan` - `void.aby@gmail.com`
