@@ -4,6 +4,8 @@ __author__='Abhijeet Mohan'
 
 from gcm import GCM
 
+API_KEY = ''
+
 gcm = GCM(API_KEY)
 data = {'param1': 'value1', 'param2': 'value2'}
 
