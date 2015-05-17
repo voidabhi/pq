@@ -4,6 +4,7 @@ __author__='Abhijeet Mohan'
 
 from gcm import GCM
 
+# updating api key
 API_KEY = ''
 
 gcm = GCM(API_KEY)
