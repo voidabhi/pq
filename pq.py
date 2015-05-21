@@ -7,6 +7,7 @@ from gcm import GCM
 # updating api key
 API_KEY = ''
 
+# bulding GCM object from API_KEY
 gcm = GCM(API_KEY)
 data = {'param1': 'value1', 'param2': 'value2'}
 
