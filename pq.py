@@ -3,6 +3,7 @@
 __author__='Abhijeet Mohan'
 
 from gcm import GCM
+import requests
 
 # updating api key
 API_KEY = ''
