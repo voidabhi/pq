@@ -16,6 +16,7 @@ data = {'param1': 'value1', 'param2': 'value2'}
 
 # downloading document from url
 r = requests.get(DOC_URL)
+data = r.text
 
 # Plaintext request
 reg_id = '12'
