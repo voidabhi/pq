@@ -1,6 +1,6 @@
 # PQ
 
-A python script for fetching data from `google spreadsheet` and sending `gcm push notifications`
+A python script for fetching data from `google spreadsheet` and sending `GCM push notifications`
 
 # Developed By
 
