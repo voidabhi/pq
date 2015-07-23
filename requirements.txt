@@ -2,4 +2,3 @@
 
 gcm
 requests
-lxml
