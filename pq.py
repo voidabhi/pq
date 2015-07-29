@@ -26,6 +26,7 @@ gcm.plaintext_request(registration_id=reg_id, data=data)
 
 # JSON request
 reg_ids = ['12', '34', '69']
+# making json request
 response = gcm.json_request(registration_ids=reg_ids, data=data)
 
 # Extra arguments
