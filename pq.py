@@ -18,16 +18,12 @@ data = {'foo1': 'bar1', 'param2': 'value2'}
 # downloading document from url
 r = requests.get(DOC_URL)
 data = r.text
-row = data.split('\n')
+rows = data.split('\n')
 
 # Plaintext request
 reg_id = '12'
-gcm.plaintext_request(registration_id=reg_id, data=data)
-
-# JSON request
-reg_ids = ['12', '34', '69']
-# making json request
-response = gcm.json_request(registration_ids=reg_ids, data=data)
+for row in rows:
+    gcm.plaintext_request(registration_id=reg_id, data=row)
 
 # Extra arguments
 res = gcm.json_request(
