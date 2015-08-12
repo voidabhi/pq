@@ -6,7 +6,7 @@ from gcm import GCM
 import requests
 
 # Constant doc url
-DOC_URL = 'docs.google.com/spreadsheets/d/1Y4NNgzHOaeNI_ZK62KgHVd53pwcntSgFpWH66N0N1iw/edit#gid=0&format=csv'
+DOC_URL = 'http://docs.google.com/spreadsheets/d/1Y4NNgzHOaeNI_ZK62KgHVd53pwcntSgFpWH66N0N1iw/edit#gid=0&format=csv'
 
 # updating api key
 API_KEY = ''
