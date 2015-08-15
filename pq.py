@@ -23,6 +23,7 @@ rows = data.split('\n')
 # Plaintext request
 reg_id = '12'
 for row in rows:
+    # making gcm request
     gcm.plaintext_request(registration_id=reg_id, data=row)
 
 # Extra arguments
