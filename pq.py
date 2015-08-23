@@ -1,4 +1,4 @@
-# /usr/bin/py
+# /usr/bin/python
 
 __AUTHOR__='Abhijeet Mohan'
 
