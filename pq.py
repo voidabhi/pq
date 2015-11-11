@@ -7,10 +7,10 @@ import requests
 import ConfigParser
 
 config = ConfigParser.RawConfigParser()
-config.read('example.cfg')
+config.read('constants.cfg')
 
 # Constant doc url
-DOC_URL = 'http://docs.google.com/spreadsheets/d/1Y4NNgzHOaeNI_ZK62KgHVd53pwcntSgFpWH66N0N1iw/edit#gid=0&format=csv'
+DOC_URL = config.get('DOC_URL')
 
 # updating api key
 API_KEY = ''
