@@ -13,7 +13,7 @@ config.read('constants.cfg')
 DOC_URL = config.get('DOC_URL')
 
 # updating api key
-API_KEY = ''
+API_KEY = config.get('API_KEY')
 
 # bulding GCM object from API_KEY
 gcm = GCM(API_KEY)
