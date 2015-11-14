@@ -25,7 +25,7 @@ data = r.text
 rows = data.split('\n')
 
 # Plaintext request
-reg_id = '12'
+reg_id = config.get('REG_ID')
 for row in rows:
     # making gcm request
     gcm.plaintext_request(registration_id=reg_id, data=row)
