@@ -17,7 +17,6 @@ API_KEY = config.get('API_KEY')
 
 # bulding GCM object from API_KEY
 gcm = GCM(API_KEY)
-data = {'foo1': 'bar1', 'param2': 'value2'}
 
 # downloading document from url
 r = requests.get(DOC_URL)
