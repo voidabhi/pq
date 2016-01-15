@@ -10,7 +10,7 @@ config = ConfigParser.RawConfigParser()
 config.read('constants.cfg')
 
 # Constant doc url
-DOC_URL = config.get('DOC_URL')
+DOC_URL = config.get('doc')
 
 # updating api key
 API_KEY = config.get('API_KEY')
