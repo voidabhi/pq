@@ -2,7 +2,7 @@
 
 A python script for fetching data from `google spreadsheet` and sending `GCM PUSH notifications`
 
-# Developed By
+### Developed By
 
 `Abhijeet Mohan` - `void.aby@gmail.com`
 
@@ -11,7 +11,7 @@ A python script for fetching data from `google spreadsheet` and sending `GCM PUS
        src="http://data.pkmmte.com/temp/social_google_plus_logo.png" />
 </a>
 
-# License
+### License
 
 ```
 Copyright 2015 Abhijeet Mohan - https://github.com/voidabhi/pq
