@@ -6,6 +6,7 @@ from gcm import GCM
 import requests
 import ConfigParser
 
+# Read config
 config = ConfigParser.RawConfigParser()
 config.read('constants.cfg')
 
