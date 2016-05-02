@@ -5,6 +5,7 @@ __AUTHOR__='Abhijeet Mohan'
 from gcm import GCM
 import requests
 import ConfigParser
+from pprint import pprint
 
 # Read config
 config = ConfigParser.RawConfigParser()
@@ -35,3 +36,5 @@ res = gcm.json_request(
     registration_ids=reg_ids, data=data,
     collapse_key='uptoyou', delay_while_idle=True, time_to_live=3600
 )
+
+pprint(res)
