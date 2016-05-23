@@ -37,4 +37,5 @@ res = gcm.json_request(
     collapse_key='uptoyou', delay_while_idle=True, time_to_live=3600
 )
 
+# output response
 pprint(res)
