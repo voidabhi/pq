@@ -11,7 +11,8 @@ def index():
     '''
     Endpoint for triggering push notification
     '''
-    return make_response(jsonify({ 'success': True }), 200)
+    
+    return make_response(jsonify({ 'status': send_pn() }), 200)
 
 if __name__ == '__main__':
     app.run(debug=True)
