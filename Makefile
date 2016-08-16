@@ -10,5 +10,8 @@ copy:
     cp requirements.txt dist
     cp Makefile dist
 
+bench:
+	sh benchmark.sh
+
 tar:
     tar -zc dist/ | gzip > dist.tar.gz
