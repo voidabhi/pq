@@ -1,2 +1,5 @@
 
 
+
+DEBUG=True
+LOGFILE='.log'
