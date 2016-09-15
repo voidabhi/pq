@@ -4,6 +4,7 @@ clean:
     rm -rf dist dist.tar.gz
 
 copy:
+    pip freeze > requirements.txt
     mkdir dist
     cp -R pq.py dist
     cp -R .crossbar dist
