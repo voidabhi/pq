@@ -2,6 +2,12 @@
 
 A python script for fetching data from `google spreadsheet` and sending `GCM PUSH notifications`
 
+### Building
+
+```bash
+  $ make
+```
+
 ### Developed By
 
 `Abhijeet Mohan` - `void.aby@gmail.com`
