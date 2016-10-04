@@ -8,6 +8,12 @@ A python script for fetching data from `google spreadsheet` and sending `GCM PUS
   $ make
 ```
 
+### Benchmarks
+
+```bash
+  $ make bench
+```
+
 ### Developed By
 
 `Abhijeet Mohan` - `void.aby@gmail.com`
