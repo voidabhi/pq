@@ -19,6 +19,9 @@ def read_from_url(url):
     data = r.text
     rows = data.split('\n')
     return rows
+
+def prepare_msg(row):
+    return row.strip()
     
 def send_pn():
     (DOC_URL, API_KEY, REG_ID) = read_config()
@@ -31,6 +34,9 @@ def send_pn():
     
     # Plaintext request
     for row in rows:
+        # build message
+        row = prepare_msg(row)
+        
         # making gcm request
         gcm.plaintext_request(registration_id=REG_ID, data=row)
 
