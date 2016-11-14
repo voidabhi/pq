@@ -7,10 +7,12 @@ import requests
 import ConfigParser
 from pprint import pprint
 
+CONFIG_PATH = 'constants.cfg'
+
 # Read config
 def read_config():
     config = ConfigParser.RawConfigParser()
-    config.read('constants.cfg')
+    config.read(CONFIG_PATH)
     return (config.get('doc_url'), config.get('API_KEY'), config.get('REG_ID'))
     
 # Read from excel sheet url
